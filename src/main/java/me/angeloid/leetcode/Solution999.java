@@ -1,6 +1,5 @@
 package me.angeloid.leetcode;
 
-import javafx.util.Pair;
 
 /**
  * @author AngeloidYun

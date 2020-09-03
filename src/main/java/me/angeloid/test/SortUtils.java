@@ -3,7 +3,6 @@ package me.angeloid.test;
 import java.util.Arrays;
 import java.util.Comparator;
 
-import static com.sun.xml.internal.xsom.impl.UName.comparator;
 
 /**
  * @author AngeloidYun

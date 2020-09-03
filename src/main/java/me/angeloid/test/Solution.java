@@ -1,7 +1,7 @@
 package me.angeloid.test;
 
+
 import sun.misc.Unsafe;
-import sun.nio.ch.FileChannelImpl;
 
 import java.io.FileDescriptor;
 import java.io.FileInputStream;
@@ -21,20 +21,7 @@ import java.util.Optional;
  * @date 2020/8/4
  */
 public class Solution {
-    public static void main(String[] args) throws IOException {
 
-        String b = new String("str01");
-        b.intern();
-        String a = "str01";
-
-        String addr1 = getAddresses(a);
-        String addr2 = getAddresses(b);
-        System.out.println(addr1);
-        System.out.println(addr2);
-        System.out.println(a == b);
-
-
-    }
 
     private static Integer change(Integer b) {
         b += 3;

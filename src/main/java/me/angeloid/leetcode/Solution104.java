@@ -1,6 +1,5 @@
 package me.angeloid.leetcode;
 
-import javafx.util.Pair;
 import me.angeloid.leetcode.source.TreeNode;
 
 import java.util.LinkedList;
@@ -26,6 +25,32 @@ public class Solution104 {
         max = Math.max(max, depth);
         dfs(root.left, depth);
         dfs(root.right, depth);
+    }
+
+    class Pair<K, V> {
+        K key;
+        V value;
+
+        public K getKey() {
+            return key;
+        }
+
+        public void setKey(K key) {
+            this.key = key;
+        }
+
+        public V getValue() {
+            return value;
+        }
+
+        public void setValue(V value) {
+            this.value = value;
+        }
+
+        public Pair(K key, V value) {
+            this.key = key;
+            this.value = value;
+        }
     }
 
     public int maxDepth2(TreeNode root) {
