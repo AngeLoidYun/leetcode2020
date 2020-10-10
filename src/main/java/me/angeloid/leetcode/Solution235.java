@@ -9,6 +9,7 @@ import me.angeloid.leetcode.source.TreeNode;
 public class Solution235 {
     /**
      * 解法1、递归法
+     * 如果都在同一边，那么就不是最近公共祖先。
      *
      * @param root
      * @param p
